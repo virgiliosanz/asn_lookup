@@ -1,0 +1,24 @@
+INSTALL
+=======
+
+Ubuntu / Linux
+--------------
+
+ $ sudo apt-get install cmake build-essential git
+ $ make
+ $ make test
+
+Have a look at bin directory
+
+OSX
+---
+
+ $ port install cmake git
+ $ make
+ $ make test
+
+Have a look at bin directory
+
+Windows
+-------
+

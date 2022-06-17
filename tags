@@ -1,0 +1,237 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOC_FREE	src/lib/core/memory.h	/^#define ALLOC_FREE(/;"	d
+ALLOC_INIT	src/lib/core/memory.h	/^#define ALLOC_INIT(/;"	d
+ASNS_RAW_FNAME	src/bin/add_asn_to_log.c	/^#define ASNS_RAW_FNAME /;"	d	file:
+ASNS_RAW_FNAME	src/bin/asn_stats_from_log.c	/^#define ASNS_RAW_FNAME /;"	d	file:
+ASNS_RAW_FNAME	src/bin/fill_asn_names.c	/^#define ASNS_RAW_FNAME /;"	d	file:
+ASNS_USED_FNAME	src/bin/add_asn_to_log.c	/^#define ASNS_USED_FNAME /;"	d	file:
+ASNS_USED_FNAME	src/bin/asn_stats_from_log.c	/^#define ASNS_USED_FNAME /;"	d	file:
+ASNS_USED_FNAME	src/bin/fill_asn_names.c	/^#define ASNS_USED_FNAME /;"	d	file:
+ASN_NAMES_NUMBER_OF_ASNS	src/lib/asn/asn.h	/^#define ASN_NAMES_NUMBER_OF_ASNS /;"	d
+BIT	src/lib/asn/asn.c	/^#define BIT(/;"	d	file:
+ERROR_NO_MEMORY	src/lib/asn/asn.c	/^#define ERROR_NO_MEMORY /;"	d	file:
+ERROR_PARAM	src/lib/asn/asn.c	/^#define ERROR_PARAM /;"	d	file:
+ERROR_PARAM	src/lib/log/log.c	/^#define ERROR_PARAM /;"	d	file:
+NDEBUG	src/tests/minunit.h	/^#undef NDEBUG$/;"	d
+NTESTS	src/tests/test_benchmark.c	/^#define NTESTS /;"	d	file:
+RAW_TABLE_FILE	src/tests/test_asn_table.c	/^#define RAW_TABLE_FILE /;"	d	file:
+RAW_TABLE_FILE	src/tests/test_benchmark.c	/^#define RAW_TABLE_FILE /;"	d	file:
+RM	Makefile	/^RM    := rm -rfv$/;"	m
+RUN_TESTS	src/tests/minunit.h	/^#define RUN_TESTS(/;"	d
+SHELL	Makefile	/^SHELL := \/bin\/bash$/;"	m
+STR	src/lib/core/macros.h	/^#define STR(/;"	d
+STR_HELPER	src/lib/core/macros.h	/^#define STR_HELPER(/;"	d
+TO_MB	src/bin/add_asn_to_log.c	/^#define TO_MB(/;"	d	file:
+TO_MB	src/bin/sum_asn_traffic.c	/^#define TO_MB(/;"	d	file:
+UNUSED	src/lib/core/macros.h	/^#define UNUSED(/;"	d
+USED_FILE_AUTNUMS	src/tests/test_asn_table.c	/^#define USED_FILE_AUTNUMS /;"	d	file:
+USED_FILE_AUTNUMS	src/tests/test_benchmark.c	/^#define USED_FILE_AUTNUMS /;"	d	file:
+_XOPEN_SOURCE	src/lib/log/log.h	/^#define _XOPEN_SOURCE /;"	d
+__FILENAME__	src/lib/core/dbg.h	/^#define __FILENAME__ /;"	d
+__global_debug_level	src/lib/core/dbg.c	/^static enum debug_level __global_debug_level = debug_level_trace;$/;"	v	typeref:enum:debug_level	file:
+__global_debug_level_to_s	src/lib/core/dbg.c	/^static const char* __global_debug_level_to_s[] = {"INFO", "ERROR", "WARN",$/;"	v	file:
+align_str	src/lib/core/strutl.c	/^void align_str(char* dest, const char* src, int room_width)$/;"	f
+all_tests	src/tests/test_asn.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	src/tests/test_asn.c	/^char* all_tests()$/;"	f
+all_tests	src/tests/test_asn_table.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	src/tests/test_asn_table.c	/^char* all_tests()$/;"	f
+all_tests	src/tests/test_benchmark.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	src/tests/test_benchmark.c	/^char* all_tests()$/;"	f
+all_tests	src/tests/test_csv.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	src/tests/test_csv.c	/^char* all_tests()$/;"	f
+all_tests	src/tests/test_log.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	src/tests/test_log.c	/^char* all_tests()$/;"	f
+allocated	src/bin/sum_asn_traffic.c	/^    uint32_t allocated;$/;"	m	struct:asn_stats	file:
+allocated	src/lib/asn/asn.c	/^    size_t allocated;                  \/** Number of allocated ASNs *\/$/;"	m	struct:asn_names	file:
+argv	src/lib/core/sys.h	/^    const char** argv;$/;"	m	struct:command
+arl_stem	src/lib/log/log.h	/^    char* arl_stem;$/;"	m	struct:log_akamai_extended
+asn	src/lib/asn/asn.c	/^    struct asn *asn;$/;"	m	struct:asn_index	typeref:struct:asn_index::asn	file:
+asn	src/lib/asn/asn.c	/^struct asn {$/;"	s	file:
+asn	src/tests/config_tests.h	/^    size_t asn;$/;"	m	struct:__anon1
+asn_alloc	src/lib/asn/asn.c	/^struct asn *asn_alloc(const char *network, size_t number) {$/;"	f
+asn_free	src/lib/asn/asn.c	/^void asn_free(struct asn *asn) {$/;"	f
+asn_has_ip	src/lib/asn/asn.c	/^bool asn_has_ip(const struct asn *asn, const char *ip_s) {$/;"	f
+asn_index	src/lib/asn/asn.c	/^struct asn_index {$/;"	s	file:
+asn_ip_s	src/lib/asn/asn.c	/^char *asn_ip_s(const struct asn *asn) {$/;"	f
+asn_mask	src/lib/asn/asn.c	/^uint8_t asn_mask(const struct asn *asn) {$/;"	f
+asn_name_by_asnum	src/lib/asn/asn.c	/^static struct asn_names_and_data *asn_name_by_asnum(struct asn_names *names,$/;"	f	file:
+asn_names	src/lib/asn/asn.c	/^struct asn_names {$/;"	s	file:
+asn_names_and_data	src/lib/asn/asn.c	/^struct asn_names_and_data {$/;"	s	file:
+asn_number	src/lib/asn/asn.c	/^uint32_t asn_number(const struct asn *asn) {$/;"	f
+asn_pos	src/tests/config_tests.h	/^    int asn_pos; \/\/ Position of the asn in the list below$/;"	m	struct:__anon1
+asn_stats	src/bin/sum_asn_traffic.c	/^struct asn_stats {$/;"	s	file:
+asn_stats_add	src/bin/sum_asn_traffic.c	/^void asn_stats_add(struct asn_stats* stats, uint32_t asn, size_t bytes)$/;"	f
+asn_stats_alloc	src/bin/sum_asn_traffic.c	/^struct asn_stats* asn_stats_alloc()$/;"	f
+asn_stats_data	src/bin/sum_asn_traffic.c	/^struct asn_stats_data {$/;"	s	file:
+asn_stats_free	src/bin/sum_asn_traffic.c	/^void asn_stats_free(struct asn_stats* stats)$/;"	f
+asn_stats_print_results	src/bin/sum_asn_traffic.c	/^void asn_stats_print_results(struct asn_stats* stats)$/;"	f
+asn_table	src/lib/asn/asn.c	/^struct asn_table {$/;"	s	file:
+asn_table_add_asn	src/lib/asn/asn.c	/^void asn_table_add_asn(struct asn_table *table, struct asn *asn) {$/;"	f
+asn_table_add_name	src/lib/asn/asn.c	/^void asn_table_add_name(struct asn_table *table, const uint32_t number,$/;"	f
+asn_table_alloc	src/lib/asn/asn.c	/^struct asn_table *asn_table_alloc() {$/;"	f
+asn_table_find_by_ip	src/lib/asn/asn.c	/^struct asn *asn_table_find_by_ip(const struct asn_table *table,$/;"	f
+asn_table_find_by_ip_loop	src/lib/asn/asn.c	/^static struct asn *asn_table_find_by_ip_loop(const struct asn_index *index,$/;"	f	file:
+asn_table_find_by_ip_s	src/lib/asn/asn.c	/^struct asn *asn_table_find_by_ip_s(const struct asn_table *table,$/;"	f
+asn_table_find_name_by_asn	src/lib/asn/asn.h	/^#define asn_table_find_name_by_asn(/;"	d
+asn_table_find_name_by_asnum	src/lib/asn/asn.c	/^char *asn_table_find_name_by_asnum(const struct asn_table *table,$/;"	f
+asn_table_find_user_data_by_asn	src/lib/asn/asn.h	/^#define asn_table_find_user_data_by_asn(/;"	d
+asn_table_find_user_data_by_asnum	src/lib/asn/asn.c	/^void *asn_table_find_user_data_by_asnum(const struct asn_table *table,$/;"	f
+asn_table_free	src/lib/asn/asn.c	/^void asn_table_free(struct asn_table *table) {$/;"	f
+asn_table_free_index_loop	src/lib/asn/asn.c	/^static void asn_table_free_index_loop(struct asn_index *index) {$/;"	f	file:
+asn_table_free_user_data	src/lib/asn/asn.c	/^void asn_table_free_user_data(struct asn_table *table) {$/;"	f
+asn_table_init	src/lib/asn/asn.c	/^struct asn_table *asn_table_init(const char *data_raw_table,$/;"	f
+asn_table_init_asn_user_data	src/lib/asn/asn.h	/^#define asn_table_init_asn_user_data(/;"	d
+asn_table_init_asnum_user_data	src/lib/asn/asn.c	/^void *asn_table_init_asnum_user_data(struct asn_table *table,$/;"	f
+asn_table_init_raw	src/lib/asn/asn.c	/^static void asn_table_init_raw(struct asn_table *table, const char *fname) {$/;"	f	file:
+asn_table_init_used	src/lib/asn/asn.c	/^static void asn_table_init_used(struct asn_table *table, const char *fname) {$/;"	f	file:
+asn_table_loop	src/lib/asn/asn.c	/^void asn_table_loop(const struct asn_table *table, asn_table_loop_cb_t cb,$/;"	f
+asn_table_loop_cb_t	src/lib/asn/asn.h	/^typedef void (*asn_table_loop_cb_t)(const uint32_t asnum, const char* name,$/;"	t
+asn_table_print	src/lib/asn/asn.c	/^void asn_table_print(const struct asn_table *table) {$/;"	f
+asn_table_print_loop	src/lib/asn/asn.c	/^static void asn_table_print_loop(const struct asn_index *index,$/;"	f	file:
+asn_to_binary	src/lib/asn/asn.c	/^void asn_to_binary(const struct asn *asn, bool *bits) {$/;"	f
+asn_to_binary_s	src/lib/asn/asn.c	/^void asn_to_binary_s(const struct asn *asn, char *bits) {$/;"	f
+asns	src/tests/config_tests.h	/^} asns[] = {$/;"	v	typeref:struct:__anon2
+assert_lpc	src/tests/test_log.c	/^#define assert_lpc(/;"	d	file:
+authuser	src/lib/log/log.h	/^    char* authuser;$/;"	m	struct:log_apache_common
+bit_netmask_to_wildcard_netmask	bin/cidr-to-ip.sh	/^bit_netmask_to_wildcard_netmask() {$/;"	f
+bits	src/lib/asn/asn.c	/^    uint8_t bits;$/;"	m	struct:asn	file:
+bytes	src/bin/sum_asn_traffic.c	/^    size_t bytes;$/;"	m	struct:asn_stats_data	file:
+bytes	src/lib/log/log.h	/^    char* bytes;$/;"	m	struct:log_apache_common
+cache_status	src/lib/log/log.h	/^    char* cache_status;$/;"	m	struct:log_akamai_extended_1
+check_net_boundary	bin/cidr-to-ip.sh	/^check_net_boundary() {$/;"	f
+client_ip	src/lib/log/log.h	/^    char* client_ip;$/;"	m	struct:log_akamai_extended
+command	src/lib/core/sys.h	/^struct command {$/;"	s
+cookie	src/lib/log/log.h	/^    char* cookie;$/;"	m	struct:log_akamai_extended
+custom	src/lib/log/log.h	/^    char* custom;$/;"	m	struct:log_akamai_extended_1
+data	src/bin/sum_asn_traffic.c	/^    struct asn_stats_data* data;$/;"	m	struct:asn_stats	typeref:struct:asn_stats::asn_stats_data	file:
+data	src/lib/asn/asn.c	/^    void *data; \/** User defined data *\/$/;"	m	struct:asn_names_and_data	file:
+date	src/lib/log/log.h	/^    char* date;$/;"	m	struct:log_apache_common
+date	src/lib/log/log.h	/^    char* date;$/;"	m	struct:log_apache_error
+datetime	src/lib/log/log.h	/^    char* datetime;$/;"	m	struct:log_akamai_extended
+debug	src/lib/core/dbg.h	/^#define debug(/;"	d
+debug_level	src/lib/core/dbg.h	/^enum debug_level {$/;"	g
+debug_level_all	src/lib/core/dbg.h	/^    debug_level_all$/;"	e	enum:debug_level
+debug_level_error	src/lib/core/dbg.h	/^    debug_level_error,$/;"	e	enum:debug_level
+debug_level_get	src/lib/core/dbg.c	/^enum debug_level debug_level_get() { return __global_debug_level; }$/;"	f
+debug_level_info	src/lib/core/dbg.h	/^    debug_level_info,$/;"	e	enum:debug_level
+debug_level_is_visible	src/lib/core/dbg.c	/^bool debug_level_is_visible(enum debug_level level)$/;"	f
+debug_level_set	src/lib/core/dbg.c	/^void debug_level_set(enum debug_level level) { __global_debug_level = level; }$/;"	f
+debug_level_str	src/lib/core/dbg.c	/^const char* debug_level_str(enum debug_level level)$/;"	f
+debug_level_trace	src/lib/core/dbg.h	/^    debug_level_trace,$/;"	e	enum:debug_level
+debug_level_warn	src/lib/core/dbg.h	/^    debug_level_warn,$/;"	e	enum:debug_level
+debug_time	src/lib/core/dbg.c	/^const char* debug_time()$/;"	f
+depth	src/lib/asn/asn.c	/^    unsigned depth; \/** Tree depth Max values = 32 for IPv4 *\/$/;"	m	struct:asn_index	file:
+error	src/lib/core/dbg.h	/^#define error(/;"	d
+error_if	src/lib/core/dbg.h	/^#define error_if(/;"	d
+fork_pipes	src/lib/core/sys.c	/^int fork_pipes(size_t n, struct command* cmd)$/;"	f
+get_field	src/lib/core/strutl.c	/^bool get_field(char* line, char* dest, size_t max_size, char sep, uint32_t pos)$/;"	f
+ghostip	src/lib/log/log.h	/^    char* ghostip;$/;"	m	struct:log_akamai_extended_1
+gtag	docs/C Extensions — pysheeet.html	/^  function gtag(){dataLayer.push(arguments);}$/;"	f
+http_method	src/lib/log/log.h	/^    char* http_method;$/;"	m	struct:log_akamai_extended
+ident	src/lib/log/log.h	/^    char* ident;$/;"	m	struct:log_apache_common
+in_addr_to_binary	src/lib/asn/asn.c	/^void in_addr_to_binary(const struct in_addr ip, bool *bits) {$/;"	f
+in_addr_to_binary_s	src/lib/asn/asn.c	/^void in_addr_to_binary_s(const struct in_addr ip, char *bits) {$/;"	f
+index	src/lib/asn/asn.c	/^    struct asn_index *index;$/;"	m	struct:asn_table	typeref:struct:asn_table::asn_index	file:
+info	src/lib/core/dbg.h	/^#define info(/;"	d
+ip	src/lib/asn/asn.c	/^    struct in_addr ip;$/;"	m	struct:asn	typeref:struct:asn::in_addr	file:
+ip	src/lib/log/log.h	/^    char* ip;$/;"	m	struct:log_apache_common
+ip	src/lib/log/log.h	/^    char* ip;$/;"	m	struct:log_apache_error
+ip	src/tests/config_tests.h	/^    char ip[16];$/;"	m	struct:__anon1
+ip_b	src/tests/config_tests.h	/^    char ip_b[33];$/;"	m	struct:__anon1
+ips	src/tests/config_tests.h	/^} ips[] = {{"213.37.69.31", 6739, "11010101001001010100010100011111", 0},$/;"	v	typeref:struct:__anon1
+leafs	src/lib/asn/asn.c	/^    struct asn_index *leafs[2];$/;"	m	struct:asn_index	typeref:struct:asn_index::asn_index	file:
+line	src/tests/test_log.c	/^    char* line;$/;"	m	struct:log_apache_combined_test_data	file:
+line	src/tests/test_log.c	/^    char* line;$/;"	m	struct:log_apache_common_test_data	file:
+line	src/tests/test_log.c	/^    char* line;$/;"	m	struct:log_apache_error_test_data	file:
+log_akamai_extended	src/lib/log/log.h	/^struct log_akamai_extended {$/;"	s
+log_akamai_extended_1	src/lib/log/log.h	/^struct log_akamai_extended_1 {$/;"	s
+log_apache_combined	src/lib/log/log.h	/^struct log_apache_combined {$/;"	s
+log_apache_combined_parse	src/lib/log/log.c	/^bool log_apache_combined_parse(struct log_apache_combined* l, char* s)$/;"	f
+log_apache_combined_test_data	src/tests/test_log.c	/^struct log_apache_combined_test_data {$/;"	s	file:
+log_apache_combined_test_data	src/tests/test_log.c	/^} log_apache_combined_test_data[] = {$/;"	v	typeref:struct:log_apache_combined_test_data
+log_apache_common	src/lib/log/log.h	/^struct log_apache_common {$/;"	s
+log_apache_common_parse	src/lib/log/log.c	/^bool log_apache_common_parse(struct log_apache_common* lpc, char* s)$/;"	f
+log_apache_common_test_data	src/tests/test_log.c	/^struct log_apache_common_test_data {$/;"	s	file:
+log_apache_common_test_data	src/tests/test_log.c	/^} log_apache_common_test_data[] = {$/;"	v	typeref:struct:log_apache_common_test_data
+log_apache_error	src/lib/log/log.h	/^struct log_apache_error {$/;"	s
+log_apache_error_parse	src/lib/log/log.c	/^bool log_apache_error_parse(struct log_apache_error* l, char* s)$/;"	f
+log_apache_error_strptime	src/lib/log/log.h	/^#define log_apache_error_strptime(/;"	d
+log_apache_error_test_data	src/tests/test_log.c	/^struct log_apache_error_test_data {$/;"	s	file:
+log_apache_error_test_data	src/tests/test_log.c	/^} log_apache_error_test_data[] = {$/;"	v	typeref:struct:log_apache_error_test_data
+log_apache_strptime	src/lib/log/log.h	/^#define log_apache_strptime(/;"	d
+lpc	src/lib/log/log.h	/^    struct log_akamai_extended lpc;$/;"	m	struct:log_akamai_extended_1	typeref:struct:log_akamai_extended_1::log_akamai_extended
+lpc	src/lib/log/log.h	/^    struct log_apache_common lpc;$/;"	m	struct:log_apache_combined	typeref:struct:log_apache_combined::log_apache_common
+lpc	src/tests/test_log.c	/^    struct log_apache_combined lpc;$/;"	m	struct:log_apache_combined_test_data	typeref:struct:log_apache_combined_test_data::log_apache_combined	file:
+lpc	src/tests/test_log.c	/^    struct log_apache_common lpc;$/;"	m	struct:log_apache_common_test_data	typeref:struct:log_apache_common_test_data::log_apache_common	file:
+lpc	src/tests/test_log.c	/^    struct log_apache_error lpc;$/;"	m	struct:log_apache_error_test_data	typeref:struct:log_apache_error_test_data::log_apache_error	file:
+main	src/bin/add_asn_to_log.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/bin/asn_stats_from_log.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/bin/fill_asn_names.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/bin/sum_asn_traffic.c	/^int main()$/;"	f
+mask	src/tests/config_tests.h	/^    uint8_t mask;$/;"	m	struct:__anon2
+memdup	src/lib/core/memory.c	/^void* memdup(const void* src, size_t sz)$/;"	f
+message	src/lib/log/log.h	/^    char* message;$/;"	m	struct:log_apache_error
+method	src/lib/log/log.h	/^    char* method;$/;"	m	struct:log_apache_common
+module	src/lib/log/log.h	/^    char* module;$/;"	m	struct:log_apache_error
+move_to_next_char	src/lib/log/log.c	/^#define move_to_next_char(/;"	d	file:
+mu_assert	src/tests/minunit.h	/^#define mu_assert(/;"	d
+mu_run_test	src/tests/minunit.h	/^#define mu_run_test(/;"	d
+mu_suite_start	src/tests/minunit.h	/^#define mu_suite_start(/;"	d
+name	src/lib/asn/asn.c	/^    char *name; \/** ASN name*\/$/;"	m	struct:asn_names_and_data	file:
+name	src/tests/config_tests.h	/^    char* name;$/;"	m	struct:__anon2
+names	src/lib/asn/asn.c	/^    struct asn_names *names;$/;"	m	struct:asn_table	typeref:struct:asn_table::asn_names	file:
+names	src/lib/asn/asn.c	/^    struct asn_names_and_data **names; \/** Array of allocated number of ASNs *\/$/;"	m	struct:asn_names	typeref:struct:asn_names::asn_names_and_data	file:
+network	src/tests/config_tests.h	/^    char network[20];$/;"	m	struct:__anon2
+number	src/lib/asn/asn.c	/^    uint32_t number;$/;"	m	struct:asn	file:
+number	src/tests/config_tests.h	/^    uint32_t number;$/;"	m	struct:__anon2
+parser	src/tests/test_csv.c	/^struct csv_parser parser;$/;"	v	typeref:struct:csv_parser
+path	src/lib/log/log.h	/^    char* path;$/;"	m	struct:log_apache_common
+prefix_to_bit_netmask	bin/cidr-to-ip.sh	/^prefix_to_bit_netmask() {$/;"	f
+print_help	src/bin/add_asn_to_log.c	/^void print_help()$/;"	f
+print_help	src/bin/asn_stats_from_log.c	/^void print_help()$/;"	f
+print_help	src/bin/fill_asn_names.c	/^void print_help()$/;"	f
+proccess	src/bin/add_asn_to_log.c	/^void proccess(struct asn_table* table, int separator, uint16_t position)$/;"	f
+proccess	src/bin/asn_stats_from_log.c	/^void proccess(struct asn_table* table)$/;"	f
+proccess	src/bin/fill_asn_names.c	/^void proccess(struct asn_table* table)$/;"	f
+proccess	src/lib/log/log.h	/^    char* proccess;$/;"	m	struct:log_apache_error
+referer	src/lib/log/log.h	/^    char* referer;$/;"	m	struct:log_apache_combined
+referrer	src/lib/log/log.h	/^    char* referrer;$/;"	m	struct:log_akamai_extended
+search_bytes_and_asn	src/bin/sum_asn_traffic.c	/^bool search_bytes_and_asn(char* line, uint32_t* bytes, uint32_t* asn)$/;"	f
+search_ip	src/bin/add_asn_to_log.c	/^bool search_ip(char* line, char* ip) { return get_field(line, ip, 16, ' ', 1); }$/;"	f
+spawn_proc	src/lib/core/sys.c	/^static int spawn_proc(int in, int out, struct command* cmd)$/;"	f	file:
+status	src/lib/log/log.h	/^    char* status;$/;"	m	struct:log_apache_common
+status_code	src/lib/log/log.h	/^    char* status_code;$/;"	m	struct:log_akamai_extended
+table	src/tests/test_asn_table.c	/^struct asn_table* table;$/;"	v	typeref:struct:asn_table
+table	src/tests/test_benchmark.c	/^struct asn_table* table;$/;"	v	typeref:struct:asn_table
+test_alloc	src/tests/test_asn.c	/^char* test_alloc()$/;"	f
+test_benchmark	src/tests/test_benchmark.c	/^char* test_benchmark()$/;"	f
+test_benchmark	src/tests/test_csv.c	/^char* test_benchmark() { return NULL; }$/;"	f
+test_binary	src/tests/test_asn.c	/^char* test_binary()$/;"	f
+test_functions	src/tests/test_asn.c	/^char* test_functions()$/;"	f
+test_init	src/tests/test_csv.c	/^char* test_init()$/;"	f
+test_ip_functions	src/tests/test_asn.c	/^char* test_ip_functions()$/;"	f
+test_load_file	src/tests/test_asn_table.c	/^char* test_load_file()$/;"	f
+test_load_file	src/tests/test_benchmark.c	/^char* test_load_file()$/;"	f
+test_load_file	src/tests/test_csv.c	/^char* test_load_file() { return NULL; }$/;"	f
+test_log_apache_combined_parse	src/tests/test_log.c	/^char* test_log_apache_combined_parse()$/;"	f
+test_log_apache_common_parse	src/tests/test_log.c	/^char* test_log_apache_common_parse()$/;"	f
+test_log_apache_error_parse	src/tests/test_log.c	/^char* test_log_apache_error_parse()$/;"	f
+test_lookup	src/tests/test_asn_table.c	/^char* test_lookup()$/;"	f
+test_names	src/tests/test_asn_table.c	/^char* test_names()$/;"	f
+test_parsing	src/tests/test_asn.c	/^char* test_parsing()$/;"	f
+tests_run	src/tests/minunit.h	/^int tests_run;$/;"	v
+total_bytes	src/lib/log/log.h	/^    char* total_bytes;$/;"	m	struct:log_akamai_extended
+trace	src/lib/core/dbg.h	/^#define trace(/;"	d
+trace_if	src/lib/core/dbg.h	/^#define trace_if(/;"	d
+transfer_time	src/lib/log/log.h	/^    char* transfer_time;$/;"	m	struct:log_akamai_extended
+trim_eol	src/lib/core/strutl.h	/^#define trim_eol(/;"	d
+user_agent	src/lib/log/log.h	/^    char* user_agent;$/;"	m	struct:log_akamai_extended
+user_agent	src/lib/log/log.h	/^    char* user_agent;$/;"	m	struct:log_apache_combined
+version	src/lib/log/log.h	/^    char* version;$/;"	m	struct:log_apache_common
+warn	src/lib/core/dbg.h	/^#define warn(/;"	d
+warn_if	src/lib/core/dbg.h	/^#define warn_if(/;"	d
